@@ -52,10 +52,10 @@ def Savings_pie_chart(df):
 def time_series_plot(df):
 
     dff = df.groupby(['Start of Month', 'Type'])['Amount'].sum().reset_index()
-    fig = px.bar(dff, x='Start of Month', y='Amount', color='Type', 
+    fig = px.bar(dff, x='Start of Month', y='Amount', color='Type',
                  barmode= 'group',
                  template = style_template)
-    
+
     fig.update_layout(xaxis_title='Date')
     fig.update_layout(
         title=dict(text = 'Breakdown of Income, Expenses and Savings over time', font = dict(size = 20))
@@ -304,4 +304,4 @@ def update_slicer(year, month):
 
 
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run(debug=True)
