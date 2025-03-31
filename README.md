@@ -64,7 +64,6 @@ The dashboard consists of several components:
 
 4. **Detailed Tables**
    - Comprehensive breakdown of all financial categories
-   - Sortable and formatted tables
 
 ## Data Structure
 
@@ -74,14 +73,6 @@ The dashboard expects financial data with the following columns:
 - Amount
 - Date
 - Details
-
-## Customization
-
-You can customize the dashboard by:
-- Modifying the color theme in the style settings
-- Adding new visualization components
-- Adjusting the layout using Bootstrap grid system
-- Implementing additional filtering options
 
 ## Contributing
 
