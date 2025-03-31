@@ -30,7 +30,7 @@ A dynamic web-based dashboard built with Python and Dash to help you track and v
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone https://github.com/Ratludu/Personal-Finance-Dashboard
 cd Personal-Finance-Dashboard
 ```
 
